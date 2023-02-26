@@ -1,0 +1,32 @@
+
+
+:root {
+    background: white;
+    font-family: 'Raleway', sans-serif;
+    --first-color:
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+p--light {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+p--medium {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 16px;
+}
