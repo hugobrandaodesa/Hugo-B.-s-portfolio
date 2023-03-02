@@ -13,13 +13,75 @@
 }
 
 
-@media screen and (max-width: 480px) {
-    
 
+/*Desktop*/
+    
+a{
+    cursor:pointer;
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1em;
+
+}
+
+.p-email {
+    font-weight: 700;
+    font-size: 1em;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3.6em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2em;
+    color: var(--black-smooth);
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1em;
+}
+
+#hero p {
+    font-weight:300;
+    font-size: 1.4em;
+}
+
+#section-sobre p {
+    letter-spacing: 0.02em;
+    line-height: 1.4em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+footer {
+    padding: 1em 0;
+    align-content: center;
+}
+
+footer p{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
 
     p, a {
         font-weight: 400;
-        font-size: .875rem;
+        font-size: .875em;
         text-decoration: none;
         color: black;
     }
@@ -31,18 +93,18 @@
 
     h1 {
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 2em;
     }
 
     h2 {
         font-weight: 700;
-        font-size: 1.4rem;
+        font-size: 1.4em;
         color: var(--black-smooth);
     }
 
     h3 {
         font-weight: 700;
-        font-size: 1.2rem;
+        font-size: 1.2em;
     }
 
     nav {
@@ -53,7 +115,7 @@
 
     body {
         width: 100vw;
-        height: 200rem;
+        height: 200em;
         background-color: var(--white-bg);
     }
 
@@ -65,62 +127,12 @@
 
 
     footer {
-        padding: 1rem 0;
+        padding: 1em 0;
     }
 
     footer p{
         text-align: center;
         justify-content: center;
         
-    }
-}
-
-
-@media screen and (min-width: 481px) {
-
-    
-    a{
-        cursor:pointer;
-        text-decoration: none;
-        color: black;
-    }
-    
-    p {
-        font-weight: 400;
-        font-size: 1rem;
-
-    }
-
-    .p-email {
-        font-weight: 700;
-        font-size: 1rem;
-    }
-
-    h1 {
-        font-weight: 700;
-        font-size: 3.6rem;
-    }
-
-    h2 {
-        font-weight: 700;
-        font-size: 2rem;
-        color: var(--black-smooth);
-    }
-    
-    h3 {
-        font-weight: 700;
-        font-size: 1rem;
-    }
-
-    #hero p {
-        font-weight:300;
-        font-size: 1.4rem;
-    }
-
-    #section-sobre p {
-        letter-spacing: 0.02rem;
-        line-height: 1.4rem;
-        text-align: justify;
-        text-justify: inter-word;
     }
 }

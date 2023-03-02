@@ -1,124 +1,136 @@
 
 
+/* Desktop */
+
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 6em; 
+    background-color: white;
+}
+
+#hero {
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+    padding: 6em 10em;
+}
+
+#hero img {
+    width: 12em;
+    height: 12em;
+}
+
+#section-sobre, #section-skills-hobbies, #section-formacao, #section-experiencia, #section-fale-comigo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4em 10em 8em;
+    gap: 4em;
+}
+
+
+#section-sobre {
+    background-color: white;
+    padding-bottom: 4em;
+}
+
+#section-sobre img {
+    width: 6em;
+}
+
+#section-skills-hobbies {
+    justify-content: flex-start;
+    justify-content: center;
+    background-color: var(--light-blue-bg);
+    height: 80vh;
+    gap: 2em;
+    padding-top: 0;
+}
+
+
+#section-formacao {
+    background-color: white;
+}
+
+#section-fale-comigo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4em;
+}
+
+
+
+
+
+
 
 /* Mobile */
 
 @media screen and (max-width: 480px) {
 
     header nav {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding: 1rem; 
-            background-color: white;
-    }
-
-    #hero {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        padding: 1rem;
-    }
-
-    #hero img {
-        width: 10rem;
-    }
-
-    #section-sobre, #section-skills-hobbies, #section-formacao, #section-experiencia, #section-fale-comigo {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 1rem;
-        padding: 2rem 1rem;
-    }
-
-    #section-sobre img {
-        width: 6rem;
-    }
-
-    #section-skills-hobbies {
-        background-color: var(--light-blue-bg);
-        gap: 1rem;
-    }
-
-    #section-formacao {
-        background-color: white;
-    }
-
-    #section-fale-comigo {
-        padding: 3rem;
-        gap: 2rem;
-    }
-}
-
-/* Desktop */
-
-@media screen and (min-width: 481px) {
-
-
-    header nav {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         align-items: center;
-        padding: 2rem 6rem; 
+        padding: 1em; 
         background-color: white;
+        width: 100vw;
     }
-    
+
     #hero {
-    display: flex;
-    flex-direction: row;
-    gap: 10rem;
-    padding: 6rem 10rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding: 1em;
+        width: 100vw;
     }
-    
+
     #hero img {
-    width: 12rem;
-    height: 12rem;
+        width: 10em;
     }
 
-
-    
     #section-sobre, #section-skills-hobbies, #section-formacao, #section-experiencia, #section-fale-comigo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 4rem 10rem;
-    gap: 4rem;
-    }
-    
-    
-    #section-sobre {
-        background-color: white;
-        padding-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1em;
+        padding: 2em 1em 4em 1em;
+        width: 100vw;
     }
 
     #section-sobre img {
-    width: 6rem;
-    }
-    
-    #section-skills-hobbies {
-        justify-content: flex-start;
-        justify-content: center;
-        background-color: var(--light-blue-bg);
-        height: 80vh;
-        gap: 2rem;
+        width: 6em;
+        width: 100vw;
     }
 
-    #section-experiencia {
-        padding: 4rem 5rem;
+    #section-skills-hobbies {
+        background-color: var(--light-blue-bg);
+        gap: 1em;
+        width: 100vw;
     }
-    
+
     #section-formacao {
         background-color: white;
+        width: 100vw;
+        
     }
 
     #section-fale-comigo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 3rem;
-    gap: 2rem;
+        padding: 3em;
+        gap: 2em;
+        width: 100vw;
     }
+
 }
+
+
+
+
+
+
