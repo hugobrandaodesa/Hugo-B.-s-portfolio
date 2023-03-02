@@ -1,0 +1,78 @@
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+
+
+    .card-skills, .card-hobbies {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: white;
+        padding: 3rem 1.5rem 1.5rem ;
+        gap: 1rem;
+    }
+
+    .card-formacao {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-color: white;
+        padding: 0 1.5rem;
+        gap: 1rem;
+        width: 100%;
+        align-items: center;
+    }
+
+    .card-experiencia {
+        flex-direction: column;
+        width: auto;
+        align-items: start;
+    }
+
+    .card-experiencia1  {
+        align-items: end;
+    }
+
+}
+
+/* Desktop */
+
+@media screen and (min-width: 481px) {
+
+    .card-skills, .card-hobbies {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: white;
+        padding: 3rem 1.5rem 1.5rem ;
+        gap: 1rem;
+        width: 100%;
+    }
+    
+    .card-formacao {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-color: white;
+        padding: 0;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .card-formacao img{
+        width: 2rem;
+        height: 2rem;
+    }
+
+
+    .card-experiencia {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .card-formacao__title {
+
+    }
+}

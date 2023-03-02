@@ -1,32 +1,126 @@
 
 
 :root {
-    background: white;
+    background: #FDFDFE;
     font-family: 'Raleway', sans-serif;
-    --first-color:
-}
-
-p {
     font-weight: 400;
-    font-size: 14px;
-}
-
-p--light {
-    font-weight: 300;
-    font-size: 14px;
-}
-
-p--medium {
-    font-weight: 300;
-    font-size: 14px;
-}
-
-h2 {
-    font-weight: 700;
-    font-size: 22px;
-}
-
-h3 {
-    font-weight: 700;
     font-size: 16px;
+    --1st-color: #2A7AE4;
+    --light-blue-bg: #EDF2F9;
+    --white-bg: #fdfdfd;
+    --cinza: #D9D9D9;
+    --black-smooth: #464646;
+}
+
+
+@media screen and (max-width: 480px) {
+    
+
+
+    p, a {
+        font-weight: 400;
+        font-size: .875rem;
+        text-decoration: none;
+        color: black;
+    }
+
+    a{
+        cursor:pointer;
+        text-decoration: none;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 1.4rem;
+        color: var(--black-smooth);
+    }
+
+    h3 {
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+    }
+
+    body {
+        width: 100vw;
+        height: 200rem;
+        background-color: var(--white-bg);
+    }
+
+
+    label {
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+
+    footer {
+        padding: 1rem 0;
+    }
+
+    footer p{
+        text-align: center;
+        justify-content: center;
+        
+    }
+}
+
+
+@media screen and (min-width: 481px) {
+
+    
+    a{
+        cursor:pointer;
+        text-decoration: none;
+        color: black;
+    }
+    
+    p {
+        font-weight: 400;
+        font-size: 1rem;
+
+    }
+
+    .p-email {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 3.6rem;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 2rem;
+        color: var(--black-smooth);
+    }
+    
+    h3 {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    #hero p {
+        font-weight:300;
+        font-size: 1.4rem;
+    }
+
+    #section-sobre p {
+        letter-spacing: 0.02rem;
+        line-height: 1.4rem;
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }

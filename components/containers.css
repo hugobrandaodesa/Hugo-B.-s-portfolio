@@ -1,0 +1,293 @@
+
+@media screen and (max-width: 480px) {
+
+    .nav__logo p {
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .nav__logo img {
+        width: 1rem;
+    }
+
+    .container-hero__text {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .container-hero__links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container-hero__link {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+    }
+
+    .container-hero__link p {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .container-skills, .container-hobbies, .container-formacao_grid, .container-experiencia {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 4rem;
+        padding: 1rem 0;    
+    }
+
+    .container-formacao_grid, .container-experiencia, .container-fale-comigo {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 1.5rem;
+    }
+
+    .container-formacao_grid {
+        gap: 0.5rem;
+    }
+
+    .container-experiencia__title, .container-fale-comigo__title {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0.4rem;
+    }
+
+    .container-experiencia {
+
+    }
+
+    .container-experiencia__image, .container-experiencia__image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border: 1px var(--cinza) solid;
+        border-radius: 0.4rem;
+        display: flex;
+        padding: 0.6rem 0.2rem;
+        align-items: center;
+    }
+
+
+    .container-experiencia__buttons {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    #line-2px {
+        align-content: left;
+        width: 100vw;
+    }
+
+    .container-fale-comigo__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .input-nome, .input-email, .input-assunto, .input-mensagem {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        gap: 0.2rem;
+    }
+
+    input[type=text], input[type=email], textarea {
+        box-sizing: border-box;
+        height: 2.5rem;
+        border: solid var(--cinza) 2px;
+        border-radius: 0.3rem;
+    }
+
+    textarea[name=mensagem] {
+        height: auto;
+    }
+}
+
+
+/* Desktop */
+
+@media screen and (min-width: 481px) {
+
+
+    .nav__logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.2rem;
+    }
+    
+    
+    .nav__logo img {
+        width: 1rem;
+    }
+
+    .nav__links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .container-hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 4rem;
+    }
+
+    .container-hero__text, .container-fale-comigo__title {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .container-hero__links {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+    
+    .container-hero__link {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+    }
+    
+    .container-hero__link p {
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    .container-skills, .container-hobbies, .container-formacao_grid, .container-experiencia {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 4rem;
+        padding: 1rem 0;    
+    }
+
+
+    .container-skills, .container-hobbies {
+        padding: 2rem;
+    }
+    
+    .container-skills__grid, .container-hobbies__grid {
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;  
+    }
+    
+    
+    .container-formacao, .container-formacao_grid, .container-experiencia, .container-fale-comigo {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        width: 100%;
+        gap: 4rem;
+        padding: 1rem 0;
+    }
+
+    .container-formacao {
+        gap: 2rem;
+    }
+    
+    .container-formacao_grid {
+        gap: 1.4rem;
+        align-items: start;
+        padding-bottom: 0;
+    }
+    
+    .container-formacao__title, .container-experiencia__title {
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+        text-align: start;
+    }
+
+
+
+    .container-experiencia__image{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 2rem;
+
+    }
+
+    .container-experiencia__image-stroke {
+        border: 1px var(--cinza) solid;
+        border-radius: 0.4rem;
+        padding: 1rem 1rem;
+    }
+
+    .container-experiencia__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .container-experiencia__buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .container-fale-comigo {
+        gap: 2rem;
+    }
+    
+    .container-fale-comigo__image {
+        height: 41rem;
+        width: 80%;
+    }
+
+    .container-fale-comigo__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        gap: 1rem;
+    }
+    
+    .input-nome, .input-email, .input-assunto, .input-mensagem {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        gap: 0.2rem;
+    }
+    
+    input[type=text], input[type=email], textarea {
+        box-sizing: border-box;
+        height: 2.5rem;
+        border: solid var(--cinza) 2px;
+        border-radius: 0.3rem;
+    }
+    
+    textarea[name=mensagem] {
+        height: auto;
+    }
+
+}    
+
