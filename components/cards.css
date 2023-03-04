@@ -66,11 +66,8 @@
 
     .card-experiencia {
         flex-direction: column;
-        width: auto;
         align-items: start;
+        gap: 1em;
     }
 
-    .card-experiencia1  {
-        align-items: end;
-    }
 }

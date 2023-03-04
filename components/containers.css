@@ -62,6 +62,7 @@
 
 
 .container-skills, .container-hobbies {
+    width: 100%;
     padding: 2em;
 }
 
@@ -84,6 +85,7 @@
 }
 
 .container-formacao {
+    align-items: left;
     gap: 2em;
 }
 
@@ -102,7 +104,7 @@
 
 
 
-.container-experiencia__image{
+.container-experiencia__image {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -244,9 +246,9 @@ textarea[name=mensagem] {
     }
 
     .container-skills__grid, .container-hobbies__grid {
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        background-color: #2196F3;
         row-gap: 0.4em;
         column-gap: 0.4em;
     }
@@ -269,7 +271,9 @@ textarea[name=mensagem] {
         gap: 0.4em;
     }
 
-    .container-experiencia__image, .container-experiencia__image {
+
+    .container-experiencia__image {
+        gap: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -282,6 +286,14 @@ textarea[name=mensagem] {
         align-items: center;
     }
 
+    .container-experiencia__image-stroke {
+        border: none;
+        border-radius: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+
 
     .container-experiencia__buttons {
         display: flex;
@@ -290,9 +302,18 @@ textarea[name=mensagem] {
         gap: 1em;
     }
 
-    #line-2px {
-        align-content: left;
-        width: 100vw;
+    .container-experiencia__image img, .container-fale-comigo__image{   
+        width: 100%;
+    }
+
+    .container-fale-comigo__image { 
+        width: 100%;
+        height: 20em;
+    }
+    
+    .container-fale-comigo__image img{ 
+        max-width: 100%;
+        max-height: 100%;
     }
 
     .container-fale-comigo__form {

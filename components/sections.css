@@ -16,19 +16,21 @@ header nav {
     display: flex;
     flex-direction: row;
     gap: 10em;
-    padding: 6em 10em;
+    padding: 6em 16em;
 }
 
-#hero img {
-    width: 12em;
-    height: 12em;
+.hero__img {
+    width: 18em;
+    height: 18em;
 }
+
 
 #section-sobre, #section-skills-hobbies, #section-formacao, #section-experiencia, #section-fale-comigo {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 4em 10em 8em;
+    align-items: flex-start;
+    padding: 4em 16em 8em;
     gap: 4em;
 }
 
@@ -38,9 +40,6 @@ header nav {
     padding-bottom: 4em;
 }
 
-#section-sobre img {
-    width: 6em;
-}
 
 #section-skills-hobbies {
     justify-content: flex-start;
@@ -90,23 +89,29 @@ header nav {
         padding: 1em;
         width: 100vw;
     }
-
-    #hero img {
+    
+    .hero__img {
         width: 10em;
+        height: 10em;
+    }
+
+    .assinatura {
+        
     }
 
     #section-sobre, #section-skills-hobbies, #section-formacao, #section-experiencia, #section-fale-comigo {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: flex-start;
         gap: 1em;
-        padding: 2em 1em 4em 1em;
+        padding: 3em 1em 2em 1em;
         width: 100vw;
+        height: auto;
     }
 
-    #section-sobre img {
-        width: 6em;
-        width: 100vw;
+    #section-sobre {
+        padding-bottom: 2rem;
     }
 
     #section-skills-hobbies {
@@ -120,11 +125,8 @@ header nav {
         width: 100vw;
         
     }
-
     #section-fale-comigo {
-        padding: 3em;
         gap: 2em;
-        width: 100vw;
     }
 
 }
